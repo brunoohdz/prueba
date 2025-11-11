@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Integración</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    <h1>Hola Mundo</h1>
+
+    <!-- MENU -->
+    <header class="header">
+        <nav class="container">
+            <h1 class="letramenu">MI PÁGINA</h1>
+
+            <ul class="menu"> 
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#proyecto">PROYECTO</a></li>
+                <li><a href="#sobremi">SOBRE MÍ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRESENTACIÓN -->
+    <main id="inicio" class="mainbienvenida section">
+        <div class="container">
+            <section class="bienvenida">
+                <h2>BIENVENIDA A MI PÁGINA</h2>
+                <p>Este es un sitio donde muestro mi proyecto de página web.</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- SECCIÓN TARJETAS -->
+    <section id="proyecto" class="maintarjeta section">
+        <div class="container">
+
+            <section class="logounshowmas">
+                <img src="logo un show mas.png" title="logo un show mas" alt="Logo Un Show Más">
+            </section>  
+            
+            <div class="tarjetas-grid"> 
+                <section class="tarjeta">
+                    <img src="RIGBY 2.png" alt="Rigby">
+                    <h3 class="titulos">RIGBY</h3>
+                    <button class="boton btn">VER MÁS</button>
+                </section>
+
+                <section class="tarjeta">
+                    <img src="MORDECAY 2.jpg" alt="Mordecai">
+                    <h3 class="titulos">Mordecai</h3>
+                    <button class="boton btn">VER MÁS</button>
+                </section>
+
+                <section class="tarjeta">
+                    <img src="Musculoso 2.webp" alt="Musculoso">
+                    <h3 class="titulos">MUSCULOSO</h3>
+                    <button class="boton btn">VER MÁS</button>
+                </section>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN MULTIMEDIA -->
+    <main class="mainmultimedia section">
+        <div class="container">
+            <h2 class="section-title">CONTENIDO MULTIMEDIA</h2> 
+            
+            <section class="audio">
+                <h3>Personajes de Un Show Más (Audio)</h3>
+                <audio src="audiopersonajes.mp3" controls></audio>
+            </section>
+
+            <section class="multimedia">
+                <h3>Historia de "Un Show Más" en 15 minutos</h3>
+                <iframe src="https://www.youtube.com/embed/-VsnsAAr5nQ?si=XJRze33vO1o0NGXA" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen height="300px" width="500px"></iframe>
+            </section>
+
+            <section class="multimedia">
+                <h3>GIF de un momento del programa</h3>
+                <img src="imagen gif un show mas.gif" alt="Gif de un show más">
+            </section>
+
+            <section class="multimedia">
+                <h3>Ubicación de la Casa "Un Show Más"</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1911155.94056726!2d-99.3250155904524!3d20.68070534020984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f9f454ac8963%3A0x5dd4920706b29d61!2sCasa%20de%20un%20show%20m%C3%A1s!5e0!3m2!1ses!2suy!4v1753141488725!5m2!1ses!2suy" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="295px"></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <main class="mainsobremi section">
+        <div class="container">
+            <section id="sobremi" class="sobremi">
+                <h2 class="section-title">SOBRE MÍ</h2>
+                <p>
+                    Soy un desarrollador en progreso apasionado por la tecnología y la programación.<br>
+                    Me especializo en crear soluciones innovadoras para los clientes y satisfacer sus necesidades.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            Bruno Hernández / Todos los derechos reservados 2025
+        </div>
+    </footer>
+
 </body>
 </html>
